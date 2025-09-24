@@ -14,7 +14,7 @@ app.get("/healthz", (req, res) => res.send("ok"));
 // 정적 페이지(필요시)
 app.get("/", (req, res) => {
   res.send(`
-    <h1>My Node App</h1>
+    <h1>My Node App22222222222222222222222222222</h1>
     <p>It works 🎉</p>
     <p><a href="/api/hello">/api/hello</a></p>
   `);
